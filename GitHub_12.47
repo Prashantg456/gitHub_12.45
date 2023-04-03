@@ -1,0 +1,28 @@
+package Logical_Program;
+
+public class Star_5 
+{
+	public static void main(String[] args) 
+	{
+	
+
+	int space=5;
+    int star=1;
+
+	for(int i=1; i<=6; i++) // row
+	{
+		for(int s=1; s<=space; s++)  //space
+		{
+			System.out.print(" ");
+			
+		}
+		for(int h=1; h<=star; h++)
+		{
+			System.out.print("*");
+		}
+		System.out.println();
+		star=star+2;
+		space--;
+	}
+}
+}
